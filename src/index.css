@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+}
+
+/* Add this to your stylesheet */
+.social-icons a {
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  
+  .social-icons a:hover {
+    opacity: 1;
+  }
+  
+  .social-icons:hover a {
+    opacity: 0.3; /* Set the opacity to the desired transparent level for all icons */
+  }
+  
+  .social-icons a:hover {
+    opacity: 1; /* Ensure the hovered icon remains fully opaque */
+  }
+  
+  
+/*Work Item*/
+@layer utilities {
+    .transition-transform {
+      transition: transform 0.5s;
+    }
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  
+/*Projects Item*/
+@keyframes typewriter {
+    0%, 100% { width: 0; }
+    50% { width: 250px; } /* Adjusted width */
+  }
+  
+  @keyframes blinkCursor {
+    0%, 50% { border-color: transparent; }
+    50%, 100% { border-color: black; }
+  }
+  
+/*Contact*/
+/* Add these styles to your index.css or a similar file */
+
+/* Floating label styles */
+.group {
+  position: relative;
+}
+.group input,
+.group textarea {
+  padding-top: 16px;
+}
+.group label {
+  position: absolute;
+  left: 12px;
+  top: 16px;
+  padding: 0 4px;
+  background-color: white;
+  transition: all 0.2s;
+  pointer-events: none;
+}
+.group input:placeholder-shown + label,
+.group textarea:placeholder-shown + label {
+  top: calc(50% - 8px);
+  font-size: 1rem;
+  color: rgba(107, 114, 128);
+}
+.group input:focus + label,
+.group textarea:focus + label,
+.group input:not(:placeholder-shown) + label,
+.group textarea:not(:placeholder-shown) + label {
+  top: -8px;
+  left: 8px;
+  font-size: 0.75rem;
+  color: #001b5e;
+  padding: 0 4px;
+}
+
+/* Glowing button effect */
+.group:hover .button-background {
+  transform: translateY(0);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.group button {
+  position: relative;
+  background-color: #001b5e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.group button .button-background {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #001b5e;
+  transition: transform 0.3s ease-in-out;
+  z-index: -1;
+}
+.group button:hover .button-background {
+  transform: translateY(0%);
+}
+
+
+
