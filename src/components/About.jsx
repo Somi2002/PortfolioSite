@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaAward, FaUsers, FaFolderOpen } from 'react-icons/fa'; // Import icons for additional visual elements
+import { FaAward, FaUsers, FaFolderOpen } from 'react-icons/fa'; 
 
 const About = () => {
     return (

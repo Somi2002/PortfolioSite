@@ -1,9 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [ "./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+
+// Use the ES module export syntax
+const config = {
+  content: [
+    "./src/components/**/*.{js,jsx}",
+    "./public/index.html"
+  ],
   theme: {
     extend: {},
   },
   plugins: [],
 }
 
+export default config;
