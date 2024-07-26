@@ -111,5 +111,26 @@
   transform: translateY(0%);
 }
 
+.sidenav-link {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0;
+  margin: 8px;
+  padding: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in, background-color 0.2s ease-in;
+}
+
+.sidenav-link:hover {
+  transform: scale(1.1);
+  background-color: rgb(37, 99, 235);
+  color: white; /* Optional: change text color to white for better contrast */
+}
+
+
 
 

@@ -10,9 +10,7 @@ const About = () => {
                         About Me
                     </h2>
                     <p className="mb-5 leading-relaxed text-gray-600 text-lg">
-                        A dedicated Computer Science student at the City University of New York Queens College, I bring a blend of technical knowledge, creativity, and analytical skills to the realm of technology. 
-                        Whether it's through crafting scalable code in Python and Javascript or designing responsive user interfaces with React, I thrive on transforming ideas into reality. 
-                        Through internships and collaborative projects, I've not only honed my development skills but also learned the value of teamwork and communication in creating impactful solutions.
+                    As a dedicated Computer Science student at the City University of New York Queens College, I bring a blend of technical knowledge, creativity, and analytical skills to the realm of technology. My passion for artificial intelligence fuels my excitement about integrating AI into software engineering, where I aspire to make a significant impact. Whether it's through crafting scalable code in Python and JavaScript, designing responsive user interfaces with React, or developing innovative AI solutions, I thrive on turning ideas into reality. Through internships, collaborative projects, and hands-on experience with AI resources, I've not only honed my development skills but also learned the value of teamwork and communication in creating impactful solutions.
                     </p>
                     <div className="flex justify-center md:justify-start gap-4">
                         <a href="#projects" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full inline-flex items-center transition duration-300 ease-in-out">
