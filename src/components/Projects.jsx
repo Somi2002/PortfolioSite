@@ -12,7 +12,7 @@ const Projects = () => {
             img: ResumeParserImg,
             title: 'Resume Parser',
             technologies: 'Python, Flask, PyPDF2, python-docx, Firebase Firestore, HTML/CSS, JavaScript',
-            link: 'https://github.com/yourusername/resume-parser',
+            link: 'https://github.com/Somi2002/headstarter-resume-parser',
         },
         {
             img: CalculatorImg,
@@ -30,7 +30,7 @@ const Projects = () => {
             img: BMICalcImg,
             title: 'BMI Calculator',
             technologies: 'Python, tkinter',
-            link: 'https://github.com/yourusername/fried-ai',
+            link: 'https://github.com/Somi2002/PythonBMI',
         },
     ];
     return (

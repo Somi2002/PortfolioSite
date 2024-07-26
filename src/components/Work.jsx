@@ -24,10 +24,26 @@ const Work = () => {
 
 const data = [
     {
+        company: 'Headstarter AI',
+        title: 'Software Engineering Fellow',
+        start: 'Jul 2024', // Start date field
+        end: 'Present', // End date field    
+        details: 
+            'Creating a Pantry Tracker App utilizing React, NextJS, and Firebase to manage household inventories Developing a Customer Support AI with NextJS and OpenAI to provide automated responses to common queries. Launching an AI Flashcard App with a subscription model to facilitate learning and retention. Designing an AI Rate My Professor application using Pinecone and Embeddings to provide feedback and ratings'
+    },
+    {
+        company: 'Jupiter Leo Productions LLC',
+        title: 'Web Development Intern',
+        start: 'Jul 2024', // Start date field
+        end: 'Present', // End date field    
+        details: 
+            'Developing financial literacy gaming applications for both young children and the elderly with a focus on accessibility and simplicity, using HTML/CSS and JavaScriptEnhancing Vocabulary Lessons: Integrating AI-generated photos and voice files to improve visual and auditory learning experiences.Game Development: Designing and developing interactive educational games to enhance online financial safety courses. Content Integration: Incorporating blog articles into the curriculum to enrich lesson plans with diverse resources. Website Redesign: Leading the redesign of JupiterLeo.com to improve user experience, accessibility, and overall site functionality. Secure Browsing Education: Creating educational tools to teach users about secure browsing practices and online safety measures.'
+    },
+    {
         company: 'CUNY Tech Prep',
         title: 'Software Engineering Fellow',
         start: 'Jul 2023', // Start date field
-        end: 'Present', // End date field    
+        end: 'June 2024', // End date field    
         details: 
            'Selected for an intensive year-long tech program, focusing on real-world tech skills and professional development. Gaining hands-on experience with full-stack web development using React, Node.js, Express, and PostgreSQL. Implementing Agile, Scrum, and test-driven development to enhance project flow and code quality. Utilizing Git for version control and tools like Slack for team collaboration.'
     },
